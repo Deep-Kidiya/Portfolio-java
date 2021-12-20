@@ -6,7 +6,12 @@ $('.slider').slick({
     dotsClass:'dots'
 })    
 
-let hamberger = document.querySelectory('.hambergerhamberger');
+
+
+});
+
+// var hamberger = document.querySelector('.hamberger-button');
+let hamburger = document.querySelector('.hamberger-button');
 let times = document.querySelector('.times');
 let mobileNav = document.querySelector('.mobile-nav');
 let click = document.querySelector('.click')
@@ -14,7 +19,8 @@ let click1 = document.querySelector('.click-1')
 let click2 = document.querySelector('.click-2')
 let click3 = document.querySelector('.click-3')
  
-hamberger.addEventListener('click',function(){
+hamburger.addEventListener('click',function(){
+    let mobileNav = document.querySelector('.mobile-nav');
    mobileNav.classList.add('open');
 });
 
@@ -35,4 +41,7 @@ click3.addEventListener('click',function(){
     mobileNav.classList.remove('open');
 });
 
-})
+// function myFunction() {
+//     var element = document.getElementById("myBtn");
+//     element.classList.add("open");
+//   }

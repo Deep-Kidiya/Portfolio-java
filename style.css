@@ -239,17 +239,17 @@ color: var(--primary);
     margin-bottom: 1rem;
 }
 
-.contact .section-headingd {
+.contact .section-heading {
     color: var(--pure);
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
 
-.contact .section-headingd span {
+.contact .section-heading span {
     color: var(--primary);
 }
 
-.section-headingd {
+.section-heading {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 6rem;
