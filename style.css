@@ -425,7 +425,7 @@ header a {
     .hero {
         flex-direction: column;
     }
-
+    
     .hero .left {
         margin-top: -5rem;
         padding-right: 7rem;
@@ -437,9 +437,7 @@ header a {
         padding-right: 13rem;
     }
 
-    .site-main-wrapper .hamberger {
-        display: block;
-    }
+  
 
     header {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
