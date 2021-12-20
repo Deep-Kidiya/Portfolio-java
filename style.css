@@ -239,17 +239,17 @@ color: var(--primary);
     margin-bottom: 1rem;
 }
 
-.contact .section-heading {
+.contact .section-headingd {
     color: var(--pure);
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
 
-.contact .section-heading span {
+.contact .section-headingd span {
     color: var(--primary);
 }
 
-.section-heading {
+.section-headingd {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 6rem;
@@ -396,12 +396,17 @@ header a {
         display: block;
     }
 
+    .hero .right h6 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
     .hero .left img {
         width: 260px;
     }
 
     .hero .right h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hero {
@@ -428,6 +433,12 @@ header a {
     
     .site-main-wrapper .hamberger{
         display: block;
+    }
+
+    .hero .right h6 {
+        font-size: 1.4;
+        margin-bottom: 2rem;
+        color: var(--primary);
     }
 
     .hero .left {
