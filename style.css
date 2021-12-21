@@ -296,6 +296,45 @@ color: var(--primary);
 
 }
 
+.contact .card-wrappers .card-1 img {
+    padding-right: 16rem;
+} 
+
+.contact .input-wrap-2 textarea { 
+    margin: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+} 
+
+.contact .input-wrap input  {
+    margin: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.contact .input-wrap .a-1 {
+    padding-right: 9rem;
+    margin-right: 4rem;    
+}
+
+.contact .input-wrap .a-2 {
+    margin-left: 2rem;
+    padding-right: 5rem;
+}
+
+.contact .input-wrap-2 input {
+    margin: 15rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact .card-1 img {
+    padding-left: 16rem;
+}
+
+
+
 footer {
     background: var(--dark);
     text-align: center;
@@ -396,6 +435,19 @@ header a {
         display: block;
     }
 
+    .contact .card-wrappers .card-1 {
+        padding-left: 0;
+    }
+
+    .contact .card-wrappers .card-1 img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact .card-wrappers .card-2 {
+        padding-right: 1rem;
+    }
+
     .hero .right h6 {
         font-size: 1.4rem;
         margin-bottom: 1rem;
@@ -423,6 +475,21 @@ header a {
         grid-template-columns: repeat(2,1fr);
     }
     
+    .contact .input-wrap-2 textarea {
+        margin: 1rem;
+    }
+    
+    .contact .input-wrap-2 input {
+        margin: 1rem;
+    }
+
+    .contact .input-wrap .a-2 {
+        margin: 1rem;
+    }
+
+    .contact .input-wrap .a-1 {
+        margin: 1rem;
+    }
 }
 
 
@@ -433,6 +500,10 @@ header a {
     
     .site-main-wrapper .hamberger{
         display: block;
+    }
+
+    .contact .card-wrappers .card-1 h4 {
+        font-size: .9rem;
     }
 
     .hero .right h6 {
@@ -517,4 +588,30 @@ header a {
     .times {
         right: 30px;
     }
+}
+
+@media (max-width: 360px) {
+    .slider .slide img {
+        height: 200px;
+        width: 250px;
+    }
+
+    .contact .card-wrappers .card img {
+        height: 50px;
+    }
+
+    .contact .card-wrappers .card h2 {
+        font-size: 1rem;
+    }
+
+    .contact .card-wrappers .card-1 h4 {
+        font-size: .8rem;
+    } 
+
+    .section-headingd {
+        padding-right: 3rem;
+        font-size: 2rem;
+    }
+
+
 }
